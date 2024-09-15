@@ -1,0 +1,217 @@
+/* ======GoogleFont======= */
+/* ------Montserrat------- */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* ------Montserrat------- */
+/* ======GoogleFont======= */
+/* =======Common CSS======= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+div,
+img,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --navBar__color: #d9d9d9;
+  --hovar__color: #673ab6;
+  --white__color: #fff;
+  --line__color: #c2b0e2;
+  --p_tag__color: #808080;
+  --black__color: #000000;
+  --heading__color: #333333;
+  --Montserrat: "Montserrat", system-ui;
+}
+
+/* ======= common css */
+.logo--navbar {
+  color: var(--hovar__color);
+  font-family: var(--Montserrat);
+  font-weight: 700;
+}
+.logo--navbar:hover {
+  color: #5a16d1;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+.btn--change {
+  background-color: var(--navBar__color);
+  color: var(--hovar__color);
+  font-weight: 600;
+  font-family: var(--Montserrat);
+}
+.btn--change:hover {
+  background-color: var(--hovar__color);
+  color: var(--white__color);
+  font-weight: 600;
+  font-family: var(--Montserrat);
+}
+.dropdown--cng:hover .dropdown--list{
+display: block;
+}
+/* ======= Introduction CSS======= */
+#IntroDuction {
+  padding: 75px 0 110px 0;
+  background-color: var(--white__color);
+}
+.introductionPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.introductionPartleftSide {
+  display: flex;
+  flex-direction: column;
+}
+.introductionPartleftSide__h4 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: var(--Montserrat);
+  color: var(--heading__color);
+}
+.introductionPartleftSide__h42 {
+  margin-top: 10px;
+
+  font-size: 28px;
+  font-family: var(--Montserrat);
+  font-weight: 500;
+  color: var(--heading__color);
+}
+.introductionPartleftSide__p {
+  margin-top: 40px;
+  width: 536px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--Montserrat);
+  color: var(--p_tag__color);
+}
+.introductionPartleftSide_btn {
+  display: flex;
+  align-items: center;
+  column-gap: 26px;
+  margin-top: 14px;
+}
+.introductionPartleftSide_btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4px;
+  width: 225px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+
+  background-color: var(--hovar__color);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.introductionPartleftSide_btn1__a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--Montserrat);
+  color: var(--white__color);
+}
+.introductionPartRightSide {
+  width: 500px;
+  height: 500px;
+  border-radius: 40%;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  -ms-border-radius: 40%;
+  -o-border-radius: 40%;
+}
+.introductionPartRightSide__img {
+  margin-right: 67px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* ======= Introduction CSS======= */
+/* =======AboutMe CSS======= */
+#aboutme {
+  background-color: var(--white__color);
+  padding-bottom: 46px;
+}
+.aboutmepart {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutmepartLeftSide__img {
+  width: 546px;
+  height: 409px;
+  object-fit: cover;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.aboutmepartLeftSide__H4 {
+  max-width: 205px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: var(--Montserrat);
+  color: var(--heading__color);
+  border-bottom: 6px solid var(--line__color);
+}
+.aboutmepartLeftSide__p {
+  font-size: 18px;
+  margin-top: 28px;
+  font-weight: 500;
+  font-family: var(--Montserrat);
+  color: var(--p_tag__color);
+  max-width: 546px;
+}
+.aboutmepartLeftSide__H42 {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--Montserrat);
+  color: var(--heading__color);
+}
+.comuunites {
+  margin-top: 45px;
+  height: 60px;
+}
+.comuunites__img {
+  display: flex;
+  column-gap: 21px;
+}
+/* =======AboutMe CSS======= */
